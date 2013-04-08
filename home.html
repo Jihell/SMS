@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <title>SMS - Home</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen" />
+</head>
+<body>
+<div id="global">
+    <h1>SMS - Secret Messenger Service</h1>
+    <article>
+        <h2>Comment fonctionne SMS ?</h2>
+        <p>
+            SMS vous permet d'échanger en direct avec vos proche sans laisser de trace !<br/>
+            Créer votre propre salon de discution sécurisé par mot de passe, changez de pseudo à n'importe quel moment !<br/>
+            SMS n'enregistre pas les informations que vous transmettez, fermez le navigateur et personne ne saura rien de vos conversation.<br/>
+            <br/>
+            Une fois le canal crée, partagez son adresse et mot de passe avec les personnes concernées.<br/>
+            Détruisez à tout moment le canal en cas de doute !<br/>
+            <br/>
+            C'est vraiment l'outil idéal pour organiser une fête surprise à vos amis sans qu'il ne se doutent de rien ;)
+        </p>
+    </article>
+    <form action="/createChannel" method="post">
+        <h2>Créez un nouveau canal</h2>
+        <div>
+            <label for="channel">URL du canal *</label>
+            <input type="text" name="url" id="channel" value="" />
+        </div>
+        <div>
+            <label for="name">Nom du canal *</label>
+            <input type="text" name="roomName" id="name" value="" placeholder="" />
+        </div>
+        <div>
+            <label for="password">Mot de passe *</label>
+            <input type="password" name="password" id="password" />
+        </div>
+        <div>
+            <button>Créer</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

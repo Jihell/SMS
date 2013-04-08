@@ -1,0 +1,66 @@
+.smiley {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background: url(../images/smiley_sprite_256x256.png) no-repeat 0px 0px;
+}
+.tinkle {
+    background-position: 0px 0px;
+}
+.mad {
+    background-position: -16px 0px;
+}
+.smile {
+    background-position: -32px 0px;
+}
+.sad {
+    background-position: -48px 0px;
+}
+.shout {
+    background-position: -64px 0px;
+}
+.devil {
+    background-position: -80px 0px;
+}
+.shock {
+    background-position: -96px 0px;
+}
+.cry {
+    background-position: -112px 0px;
+}
+.sunglass {
+    background-position: -128px 0px;
+}
+.bad {
+    background-position: -144px 0px;
+}
+.happy {
+    background-position: -160px 0px;
+}
+.cuir {
+    background-position: -176px 0px;
+}
+.snip {
+    background-position: -192px 0px;
+}
+.mute {
+    background-position: -208px 0px;
+}
+.hand {
+    background-position: -224px 0px;
+}
+.confused {
+    background-position: -240px 0px;
+}
+.tong {
+    background-position: 0px -16px;
+}
+.angel {
+    background-position: -16px -16px;
+}
+.heart {
+    background-position: -32px -16px;
+}
+.smoke {
+    background-position: -48px -16px;
+}

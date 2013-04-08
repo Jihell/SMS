@@ -1,0 +1,17 @@
+{
+    "author": "Joseph Lemoine",
+    "name": "him",
+    "description": "Node chat application, support multiple channels",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "version": "0.1.0",
+    "dependencies": {
+        "socket.io": "0.9.14",
+        "node-uuid": "1.4.0",
+        "mime": "1.2.9"
+    },
+    "engines": {
+        "node": "*"
+    }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <title>SMS</title>
+        <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen" />
+        <link href="/css/smiley.css" type="text/css" rel="stylesheet" media="screen" />
+    </head>
+    <body>
+        <div id="global">
+            <h1>roomName</h1>
+            <h2>Topic</h2>
+            <ul id="tchat">
+
+            </ul>
+            <form id="chatForm" autocomplete="off">
+                <input type="text" name="nick" id="nick" value="Anonymous" />
+                <input type="text" name="message" id="message" />
+                <button>Envoyer</button>
+            </form>
+        </div>
+
+        <div id="hiddenOverlay"></div>
+
+        <audio class="hidden" id="audio" controls preload="auto" autobuffer>
+            <source src="/sound/coin.mp3" type="audio/mp3" />
+            <source src="/sound/coin.ogg" type="audio/ogg" />
+        </audio>
+
+        <script type="text/javascript" src="/js/app.js"></script>
+        <script type="text/javascript" src="/js/app/action.js"></script>
+        <script type="text/javascript" src="/js/app/interact.js"></script>
+        <script type="text/javascript" src="/js/app/tool.js"></script>
+        <script type="text/javascript" src="/js/app/audio.js"></script>
+        <script type="text/javascript" src="/js/app/command.js"></script>
+        <script type="text/javascript" src="/js/app/config.js"></script>
+        <script type="text/javascript" src="/js/app/socket.js"></script>
+        <script type="text/javascript" src="/js/app/smiley.js"></script>
+    </body>
+</html>
